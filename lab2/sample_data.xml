@@ -1,0 +1,353 @@
+<?xml version="1.0" ?>
+<teachers>
+  <teacher id="1">
+    <department>Computer Science</department>
+    <full_name>Ivanov Ivan Ivanovich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>20</work_experience>
+  </teacher>
+  <teacher id="2">
+    <department>Mathematics</department>
+    <full_name>Petrova Anna Sergeevna</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>15</work_experience>
+  </teacher>
+  <teacher id="3">
+    <department>Physics</department>
+    <full_name>Sidorov Petr Petrovich</full_name>
+    <academic_title>Senior Lecturer</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>10</work_experience>
+  </teacher>
+  <teacher id="4">
+    <department>Chemistry</department>
+    <full_name>Kuznetsova Maria Ivanovna</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>25</work_experience>
+  </teacher>
+  <teacher id="5">
+    <department>Biology</department>
+    <full_name>Smirnov Alexey Dmitrievich</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>12</work_experience>
+  </teacher>
+  <teacher id="6">
+    <department>Computer Science</department>
+    <full_name>Fedotov Dmitry Sergeevich</full_name>
+    <academic_title>Lecturer</academic_title>
+    <academic_degree>Master</academic_degree>
+    <work_experience>5</work_experience>
+  </teacher>
+  <teacher id="7">
+    <department>Mathematics</department>
+    <full_name>Orlova Elena Viktorovna</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>30</work_experience>
+  </teacher>
+  <teacher id="8">
+    <department>Physics</department>
+    <full_name>Nikolaev Sergey Alexandrovich</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>18</work_experience>
+  </teacher>
+  <teacher id="9">
+    <department>Chemistry</department>
+    <full_name>Morozova Olga Pavlovna</full_name>
+    <academic_title>Senior Lecturer</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>8</work_experience>
+  </teacher>
+  <teacher id="10">
+    <department>Biology</department>
+    <full_name>Vasilev Igor Nikolaevich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>22</work_experience>
+  </teacher>
+  <teacher id="11">
+    <department>Computer Science</department>
+    <full_name>Popov Andrey Vladimirovich</full_name>
+    <academic_title>Lecturer</academic_title>
+    <academic_degree>Master</academic_degree>
+    <work_experience>3</work_experience>
+  </teacher>
+  <teacher id="12">
+    <department>Mathematics</department>
+    <full_name>Zaitseva Natalia Ivanovna</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>14</work_experience>
+  </teacher>
+  <teacher id="13">
+    <department>Physics</department>
+    <full_name>Krylov Mikhail Petrovich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>28</work_experience>
+  </teacher>
+  <teacher id="14">
+    <department>Chemistry</department>
+    <full_name>Guseva Irina Alexandrovna</full_name>
+    <academic_title>Senior Lecturer</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>9</work_experience>
+  </teacher>
+  <teacher id="15">
+    <department>Biology</department>
+    <full_name>Lebedev Victor Sergeevich</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>16</work_experience>
+  </teacher>
+  <teacher id="16">
+    <department>Computer Science</department>
+    <full_name>Tikhonov Pavel Dmitrievich</full_name>
+    <academic_title>Lecturer</academic_title>
+    <academic_degree>Master</academic_degree>
+    <work_experience>4</work_experience>
+  </teacher>
+  <teacher id="17">
+    <department>Mathematics</department>
+    <full_name>Kozlova Sofia Mikhailovna</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>27</work_experience>
+  </teacher>
+  <teacher id="18">
+    <department>Physics</department>
+    <full_name>Stepanov Roman Alexandrovich</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>13</work_experience>
+  </teacher>
+  <teacher id="19">
+    <department>Chemistry</department>
+    <full_name>Volkova Tatiana Ivanovna</full_name>
+    <academic_title>Senior Lecturer</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>7</work_experience>
+  </teacher>
+  <teacher id="20">
+    <department>Biology</department>
+    <full_name>Bogdanov Yuri Petrovich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>24</work_experience>
+  </teacher>
+  <teacher id="21">
+    <department>Computer Science</department>
+    <full_name>Grigoriev Alexey Sergeevich</full_name>
+    <academic_title>Lecturer</academic_title>
+    <academic_degree>Master</academic_degree>
+    <work_experience>6</work_experience>
+  </teacher>
+  <teacher id="22">
+    <department>Mathematics</department>
+    <full_name>Dmitrieva Olga Viktorovna</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>11</work_experience>
+  </teacher>
+  <teacher id="23">
+    <department>Physics</department>
+    <full_name>Egorov Ivan Mikhailovich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>19</work_experience>
+  </teacher>
+  <teacher id="24">
+    <department>Chemistry</department>
+    <full_name>Zhuravleva Anna Pavlovna</full_name>
+    <academic_title>Senior Lecturer</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>5</work_experience>
+  </teacher>
+  <teacher id="25">
+    <department>Biology</department>
+    <full_name>Kondratiev Sergey Nikolaevich</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>17</work_experience>
+  </teacher>
+  <teacher id="26">
+    <department>Computer Science</department>
+    <full_name>Laptev Dmitry Alexandrovich</full_name>
+    <academic_title>Lecturer</academic_title>
+    <academic_degree>Master</academic_degree>
+    <work_experience>3</work_experience>
+  </teacher>
+  <teacher id="27">
+    <department>Mathematics</department>
+    <full_name>Makarova Elena Sergeevna</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>29</work_experience>
+  </teacher>
+  <teacher id="28">
+    <department>Physics</department>
+    <full_name>Novikov Pavel Viktorovich</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>14</work_experience>
+  </teacher>
+  <teacher id="29">
+    <department>Chemistry</department>
+    <full_name>Osipova Maria Dmitrievna</full_name>
+    <academic_title>Senior Lecturer</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>6</work_experience>
+  </teacher>
+  <teacher id="30">
+    <department>Biology</department>
+    <full_name>Panfilov Igor Ivanovich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>23</work_experience>
+  </teacher>
+  <teacher id="31">
+    <department>Computer Science</department>
+    <full_name>Romanov Alexey Petrovich</full_name>
+    <academic_title>Lecturer</academic_title>
+    <academic_degree>Master</academic_degree>
+    <work_experience>4</work_experience>
+  </teacher>
+  <teacher id="32">
+    <department>Mathematics</department>
+    <full_name>Savelieva Olga Nikolaevna</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>12</work_experience>
+  </teacher>
+  <teacher id="33">
+    <department>Physics</department>
+    <full_name>Tarasov Victor Alexandrovich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>26</work_experience>
+  </teacher>
+  <teacher id="34">
+    <department>Chemistry</department>
+    <full_name>Uvarova Irina Sergeevna</full_name>
+    <academic_title>Senior Lecturer</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>7</work_experience>
+  </teacher>
+  <teacher id="35">
+    <department>Biology</department>
+    <full_name>Fedorov Mikhail Dmitrievich</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>15</work_experience>
+  </teacher>
+  <teacher id="36">
+    <department>Computer Science</department>
+    <full_name>Zhukov Pavel Ivanovich</full_name>
+    <academic_title>Lecturer</academic_title>
+    <academic_degree>Master</academic_degree>
+    <work_experience>5</work_experience>
+  </teacher>
+  <teacher id="37">
+    <department>Mathematics</department>
+    <full_name>Shishkina Elena Petrovna</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>21</work_experience>
+  </teacher>
+  <teacher id="38">
+    <department>Physics</department>
+    <full_name>Yakovlev Roman Sergeevich</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>13</work_experience>
+  </teacher>
+  <teacher id="39">
+    <department>Chemistry</department>
+    <full_name>Zueva Maria Alexandrovna</full_name>
+    <academic_title>Senior Lecturer</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>8</work_experience>
+  </teacher>
+  <teacher id="40">
+    <department>Biology</department>
+    <full_name>Andreev Yuri Viktorovich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>25</work_experience>
+  </teacher>
+  <teacher id="41">
+    <department>Computer Science</department>
+    <full_name>Belyaev Alexey Mikhailovich</full_name>
+    <academic_title>Lecturer</academic_title>
+    <academic_degree>Master</academic_degree>
+    <work_experience>6</work_experience>
+  </teacher>
+  <teacher id="42">
+    <department>Mathematics</department>
+    <full_name>Voloshina Olga Ivanovna</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>10</work_experience>
+  </teacher>
+  <teacher id="43">
+    <department>Physics</department>
+    <full_name>Gavrilov Dmitry Petrovich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>18</work_experience>
+  </teacher>
+  <teacher id="44">
+    <department>Chemistry</department>
+    <full_name>Kulikova Svetlana Alexandrovna</full_name>
+    <academic_title>Senior Lecturer</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>9</work_experience>
+  </teacher>
+  <teacher id="45">
+    <department>Biology</department>
+    <full_name>Miroshnichenko Oleg Viktorovich</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>14</work_experience>
+  </teacher>
+  <teacher id="46">
+    <department>Computer Science</department>
+    <full_name>Nikitin Vladimir Sergeevich</full_name>
+    <academic_title>Lecturer</academic_title>
+    <academic_degree>Master</academic_degree>
+    <work_experience>4</work_experience>
+  </teacher>
+  <teacher id="47">
+    <department>Mathematics</department>
+    <full_name>Pavlov Ivan Dmitrievich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>23</work_experience>
+  </teacher>
+  <teacher id="48">
+    <department>Physics</department>
+    <full_name>Ryabova Natalia Ivanovna</full_name>
+    <academic_title>Associate Professor</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>11</work_experience>
+  </teacher>
+  <teacher id="49">
+    <department>Chemistry</department>
+    <full_name>Sokolova Elena Petrovna</full_name>
+    <academic_title>Senior Lecturer</academic_title>
+    <academic_degree>PhD</academic_degree>
+    <work_experience>7</work_experience>
+  </teacher>
+  <teacher id="50">
+    <department>Biology</department>
+    <full_name>Timofeev Andrey Alexandrovich</full_name>
+    <academic_title>Professor</academic_title>
+    <academic_degree>Doctor of Sciences</academic_degree>
+    <work_experience>20</work_experience>
+  </teacher>
+</teachers>

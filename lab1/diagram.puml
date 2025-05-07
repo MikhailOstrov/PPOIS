@@ -1,0 +1,169 @@
+@startuml
+skinparam monochrome true
+
+' Классы из entities.py
+class ShoppingMall {
+  -name: str
+  -address: str
+  -shops: List[Shop]
+  -galleries: List[Gallery]
+  -promotions: List[Promotion]
+  +add_shop(shop: Shop)
+  +add_gallery(gallery: Gallery)
+  +add_promotion(promotion: Promotion)
+}
+
+class Shop {
+  -name: str
+  -category: str
+  -area: float
+  -rent_price: float
+  -products: List[Product]
+  -sellers: List[Seller]
+  -cash_registers: List[CashRegister]
+  -return_policy_days: int
+  +add_product(product: Product)
+  +add_seller(seller: Seller)
+  +add_cash_register(cash_register: CashRegister)
+}
+
+class Product {
+  -name: str
+  -price: float
+  -quantity: int
+  -category: str
+  -specifications: Dict[str, str]
+  +add_specification(key: str, value: str)
+}
+
+class Customer {
+  -name: str
+  -contact_info: str
+  -purchases: List[Dict]
+  -balance: float
+  -questions: List[Dict]
+  +add_funds(amount: float)
+  +ask_question(seller: Seller, question: str): str
+}
+
+class Seller {
+  -name: str
+  -shop: Shop
+  -position: str
+  -rating: float
+  -answered_questions: List[Dict]
+  +answer_question(question: str): str
+  +process_return(customer: Customer, product: Product, purchase_date: str): (bool, str)
+}
+
+class CashRegister {
+  -shop: Shop
+  -number: int
+  -balance: float
+  +process_payment(amount: float): bool
+}
+
+class Promotion {
+  -name: str
+  -description: str
+  -discount: float
+}
+
+class Gallery {
+  -name: str
+  -level: int
+  -shops: List[Shop]
+  +add_shop(shop: Shop)
+}
+
+' Классы из operations.py
+class ProductSearch {
+  +{static} search_by_name(mall: ShoppingMall, product_name: str): List[(Product, Shop)]
+  +{static} search_by_category(mall: ShoppingMall, category: str): List[(Product, Shop)]
+}
+
+class PurchaseOperation {
+  +{static} make_purchase(customer: Customer, product: Product, shop: Shop, quantity: int, seller: Seller): (bool, str, Dict)
+}
+
+class ReturnOperation {
+  +{static} return_product(customer: Customer, purchase_index: int): (bool, str)
+}
+
+class PromotionOperation {
+  +{static} apply_promotion(purchase: Dict, promotion: Promotion): Dict
+}
+
+class RentOperation {
+  +{static} rent_space(mall: ShoppingMall, shop: Shop, months: int): Dict
+}
+
+class ServiceRating {
+  +{static} rate_seller(seller: Seller, rating: int): (bool, str)
+}
+
+' Класс из admin_interface.py
+class AdminInterface {
+  -mall: ShoppingMall
+  -current_customer: Customer
+  -commands: Dict[str, (str, method)]
+  +run()
+  -show_menu()
+  -view_shops()
+  -view_promotions()
+  -search_products()
+  -view_product_details()
+  -make_purchase()
+  -apply_promotion()
+  -rent_space()
+  -rate_service()
+  -send_announcement()
+  -change_customer()
+  -process_return()
+  -exit()
+}
+
+' Определение связей
+ShoppingMall "1" --o "0..*" Shop
+ShoppingMall "1" --o "0..*" Gallery
+ShoppingMall "1" --o "0..*" Promotion
+
+Shop "1" --o "0..*" Product
+Shop "1" --o "0..*" Seller
+Shop "1" --o "0..*" CashRegister
+
+Gallery "1" --o "0..*" Shop
+
+Customer "1" --o "0..*" Seller : asks questions
+
+Seller "1" --o "0..1" Shop
+
+CashRegister "1" --o "1" Shop
+
+AdminInterface "1" --o "1" ShoppingMall
+AdminInterface "1" --o "1" Customer
+
+' Операции взаимодействуют с сущностями
+ProductSearch --> ShoppingMall
+ProductSearch --> Product
+ProductSearch --> Shop
+
+PurchaseOperation --> Customer
+PurchaseOperation --> Product
+PurchaseOperation --> Shop
+PurchaseOperation --> Seller
+PurchaseOperation --> CashRegister
+
+ReturnOperation --> Customer
+ReturnOperation --> Product
+ReturnOperation --> Shop
+ReturnOperation --> Seller
+
+PromotionOperation --> Promotion
+
+RentOperation --> ShoppingMall
+RentOperation --> Shop
+
+ServiceRating --> Seller
+
+@enduml

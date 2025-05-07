@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1279px" preserveAspectRatio="none" style="width:2061px;height:1279px;background:#FFFFFF;" version="1.1" viewBox="0 0 2061 1279" width="2061px" zoomAndPan="magnify"><defs/><g><!--MD5=[47073df8b25066e976f94d10e9873bbc]
+class ShoppingMall--><g id="elem_ShoppingMall"><rect codeLine="4" fill="#F1F1F1" height="178.375" id="ShoppingMall" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="291" x="1086.5" y="393"/><ellipse cx="1181.75" cy="409" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1184.7188,414.6406 Q1184.1406,414.9375 1183.5,415.0781 Q1182.8594,415.2344 1182.1563,415.2344 Q1179.6563,415.2344 1178.3281,413.5938 Q1177.0156,411.9375 1177.0156,408.8125 Q1177.0156,405.6875 1178.3281,404.0313 Q1179.6563,402.375 1182.1563,402.375 Q1182.8594,402.375 1183.5,402.5313 Q1184.1563,402.6875 1184.7188,402.9844 L1184.7188,405.7031 Q1184.0938,405.125 1183.5,404.8594 Q1182.9063,404.5781 1182.2813,404.5781 Q1180.9375,404.5781 1180.25,405.6563 Q1179.5625,406.7188 1179.5625,408.8125 Q1179.5625,410.9063 1180.25,411.9844 Q1180.9375,413.0469 1182.2813,413.0469 Q1182.9063,413.0469 1183.5,412.7813 Q1184.0938,412.5 1184.7188,411.9219 L1184.7188,414.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="1202.25" y="413.8467">ShoppingMall</text><line style="stroke:#181818;stroke-width:0.5;" x1="1087.5" x2="1376.5" y1="425" y2="425"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1094.5" y="435.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1106.5" y="441.9951">name: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1094.5" y="451.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1106.5" y="458.292">address: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1094.5" y="468.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1106.5" y="474.5889">shops: List[Shop]</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1094.5" y="484.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="1106.5" y="490.8857">galleries: List[Gallery]</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1094.5" y="500.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="1106.5" y="507.1826">promotions: List[Promotion]</text><line style="stroke:#181818;stroke-width:0.5;" x1="1087.5" x2="1376.5" y1="514.4844" y2="514.4844"/><ellipse cx="1097.5" cy="528.1328" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="1106.5" y="531.4795">add_shop(shop: Shop)</text><ellipse cx="1097.5" cy="544.4297" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="1106.5" y="547.7764">add_gallery(gallery: Gallery)</text><ellipse cx="1097.5" cy="560.7266" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="265" x="1106.5" y="564.0732">add_promotion(promotion: Promotion)</text></g><!--MD5=[aeedaf129e8b7cc978e448b8c85d3831]
+class Shop--><g id="elem_Shop"><rect codeLine="15" fill="#F1F1F1" height="227.2656" id="Shop" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="357" x="731.5" y="806"/><ellipse cx="887.75" cy="822" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M890.7188,827.6406 Q890.1406,827.9375 889.5,828.0781 Q888.8594,828.2344 888.1563,828.2344 Q885.6563,828.2344 884.3281,826.5938 Q883.0156,824.9375 883.0156,821.8125 Q883.0156,818.6875 884.3281,817.0313 Q885.6563,815.375 888.1563,815.375 Q888.8594,815.375 889.5,815.5313 Q890.1563,815.6875 890.7188,815.9844 L890.7188,818.7031 Q890.0938,818.125 889.5,817.8594 Q888.9063,817.5781 888.2813,817.5781 Q886.9375,817.5781 886.25,818.6563 Q885.5625,819.7188 885.5625,821.8125 Q885.5625,823.9063 886.25,824.9844 Q886.9375,826.0469 888.2813,826.0469 Q888.9063,826.0469 889.5,825.7813 Q890.0938,825.5 890.7188,824.9219 L890.7188,827.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="908.25" y="826.8467">Shop</text><line style="stroke:#181818;stroke-width:0.5;" x1="732.5" x2="1087.5" y1="838" y2="838"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="739.5" y="848.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="751.5" y="854.9951">name: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="739.5" y="864.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="751.5" y="871.292">category: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="739.5" y="881.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="751.5" y="887.5889">area: float</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="739.5" y="897.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="751.5" y="903.8857">rent_price: float</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="739.5" y="913.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="751.5" y="920.1826">products: List[Product]</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="739.5" y="930.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="751.5" y="936.4795">sellers: List[Seller]</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="739.5" y="946.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="236" x="751.5" y="952.7764">cash_registers: List[CashRegister]</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="739.5" y="962.7266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="751.5" y="969.0732">return_policy_days: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="732.5" x2="1087.5" y1="976.375" y2="976.375"/><ellipse cx="742.5" cy="990.0234" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="214" x="751.5" y="993.3701">add_product(product: Product)</text><ellipse cx="742.5" cy="1006.3203" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="751.5" y="1009.667">add_seller(seller: Seller)</text><ellipse cx="742.5" cy="1022.6172" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="331" x="751.5" y="1025.9639">add_cash_register(cash_register: CashRegister)</text></g><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><g id="elem_Product"><rect codeLine="29" fill="#F1F1F1" height="145.7813" id="Product" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="277" x="330.5" y="1118"/><ellipse cx="437.75" cy="1134" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M440.7188,1139.6406 Q440.1406,1139.9375 439.5,1140.0781 Q438.8594,1140.2344 438.1563,1140.2344 Q435.6563,1140.2344 434.3281,1138.5938 Q433.0156,1136.9375 433.0156,1133.8125 Q433.0156,1130.6875 434.3281,1129.0313 Q435.6563,1127.375 438.1563,1127.375 Q438.8594,1127.375 439.5,1127.5313 Q440.1563,1127.6875 440.7188,1127.9844 L440.7188,1130.7031 Q440.0938,1130.125 439.5,1129.8594 Q438.9063,1129.5781 438.2813,1129.5781 Q436.9375,1129.5781 436.25,1130.6563 Q435.5625,1131.7188 435.5625,1133.8125 Q435.5625,1135.9063 436.25,1136.9844 Q436.9375,1138.0469 438.2813,1138.0469 Q438.9063,1138.0469 439.5,1137.7813 Q440.0938,1137.5 440.7188,1136.9219 L440.7188,1139.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="458.25" y="1138.8467">Product</text><line style="stroke:#181818;stroke-width:0.5;" x1="331.5" x2="606.5" y1="1150" y2="1150"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="338.5" y="1160.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="350.5" y="1166.9951">name: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="338.5" y="1176.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="350.5" y="1183.292">price: float</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="338.5" y="1193.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="350.5" y="1199.5889">quantity: int</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="338.5" y="1209.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="350.5" y="1215.8857">category: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="338.5" y="1225.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="350.5" y="1232.1826">specifications: Dict[str, str]</text><line style="stroke:#181818;stroke-width:0.5;" x1="331.5" x2="606.5" y1="1239.4844" y2="1239.4844"/><ellipse cx="341.5" cy="1253.1328" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251" x="350.5" y="1256.4795">add_specification(key: str, value: str)</text></g><!--MD5=[2ce0c9fb7f55b1e256ab28a8ea6b25ec]
+class Customer--><g id="elem_Customer"><rect codeLine="38" fill="#F1F1F1" height="162.0781" id="Customer" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="335" x="1123.5" y="838.5"/><ellipse cx="1252.75" cy="854.5" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1255.7188,860.1406 Q1255.1406,860.4375 1254.5,860.5781 Q1253.8594,860.7344 1253.1563,860.7344 Q1250.6563,860.7344 1249.3281,859.0938 Q1248.0156,857.4375 1248.0156,854.3125 Q1248.0156,851.1875 1249.3281,849.5313 Q1250.6563,847.875 1253.1563,847.875 Q1253.8594,847.875 1254.5,848.0313 Q1255.1563,848.1875 1255.7188,848.4844 L1255.7188,851.2031 Q1255.0938,850.625 1254.5,850.3594 Q1253.9063,850.0781 1253.2813,850.0781 Q1251.9375,850.0781 1251.25,851.1563 Q1250.5625,852.2188 1250.5625,854.3125 Q1250.5625,856.4063 1251.25,857.4844 Q1251.9375,858.5469 1253.2813,858.5469 Q1253.9063,858.5469 1254.5,858.2813 Q1255.0938,858 1255.7188,857.4219 L1255.7188,860.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="1273.25" y="859.3467">Customer</text><line style="stroke:#181818;stroke-width:0.5;" x1="1124.5" x2="1457.5" y1="870.5" y2="870.5"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1131.5" y="881.1484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1143.5" y="887.4951">name: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1131.5" y="897.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1143.5" y="903.792">contact_info: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1131.5" y="913.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="1143.5" y="920.0889">purchases: List[Dict]</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1131.5" y="930.0391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="1143.5" y="936.3857">balance: float</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1131.5" y="946.3359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1143.5" y="952.6826">questions: List[Dict]</text><line style="stroke:#181818;stroke-width:0.5;" x1="1124.5" x2="1457.5" y1="959.9844" y2="959.9844"/><ellipse cx="1134.5" cy="973.6328" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="1143.5" y="976.9795">add_funds(amount: float)</text><ellipse cx="1134.5" cy="989.9297" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="309" x="1143.5" y="993.2764">ask_question(seller: Seller, question: str): str</text></g><!--MD5=[43844b47726d9c4702f600b824e35ead]
+class Seller--><g id="elem_Seller"><rect codeLine="48" fill="#F1F1F1" height="162.0781" id="Seller" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="622" x="980" y="1110"/><ellipse cx="1267.75" cy="1126" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1270.7188,1131.6406 Q1270.1406,1131.9375 1269.5,1132.0781 Q1268.8594,1132.2344 1268.1563,1132.2344 Q1265.6563,1132.2344 1264.3281,1130.5938 Q1263.0156,1128.9375 1263.0156,1125.8125 Q1263.0156,1122.6875 1264.3281,1121.0313 Q1265.6563,1119.375 1268.1563,1119.375 Q1268.8594,1119.375 1269.5,1119.5313 Q1270.1563,1119.6875 1270.7188,1119.9844 L1270.7188,1122.7031 Q1270.0938,1122.125 1269.5,1121.8594 Q1268.9063,1121.5781 1268.2813,1121.5781 Q1266.9375,1121.5781 1266.25,1122.6563 Q1265.5625,1123.7188 1265.5625,1125.8125 Q1265.5625,1127.9063 1266.25,1128.9844 Q1266.9375,1130.0469 1268.2813,1130.0469 Q1268.9063,1130.0469 1269.5,1129.7813 Q1270.0938,1129.5 1270.7188,1128.9219 L1270.7188,1131.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="1288.25" y="1130.8467">Seller</text><line style="stroke:#181818;stroke-width:0.5;" x1="981" x2="1601" y1="1142" y2="1142"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="988" y="1152.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1000" y="1158.9951">name: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="988" y="1168.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="1000" y="1175.292">shop: Shop</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="988" y="1185.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1000" y="1191.5889">position: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="988" y="1201.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1000" y="1207.8857">rating: float</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="988" y="1217.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="1000" y="1224.1826">answered_questions: List[Dict]</text><line style="stroke:#181818;stroke-width:0.5;" x1="981" x2="1601" y1="1231.4844" y2="1231.4844"/><ellipse cx="991" cy="1245.1328" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="1000" y="1248.4795">answer_question(question: str): str</text><ellipse cx="991" cy="1261.4297" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="596" x="1000" y="1264.7764">process_return(customer: Customer, product: Product, purchase_date: str): (bool, str)</text></g><!--MD5=[b25e6897497715e5a799d59d4053e611]
+class CashRegister--><g id="elem_CashRegister"><rect codeLine="58" fill="#F1F1F1" height="113.1875" id="CashRegister" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="289" x="655.5" y="1134.5"/><ellipse cx="749.25" cy="1150.5" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M752.2188,1156.1406 Q751.6406,1156.4375 751,1156.5781 Q750.3594,1156.7344 749.6563,1156.7344 Q747.1563,1156.7344 745.8281,1155.0938 Q744.5156,1153.4375 744.5156,1150.3125 Q744.5156,1147.1875 745.8281,1145.5313 Q747.1563,1143.875 749.6563,1143.875 Q750.3594,1143.875 751,1144.0313 Q751.6563,1144.1875 752.2188,1144.4844 L752.2188,1147.2031 Q751.5938,1146.625 751,1146.3594 Q750.4063,1146.0781 749.7813,1146.0781 Q748.4375,1146.0781 747.75,1147.1563 Q747.0625,1148.2188 747.0625,1150.3125 Q747.0625,1152.4063 747.75,1153.4844 Q748.4375,1154.5469 749.7813,1154.5469 Q750.4063,1154.5469 751,1154.2813 Q751.5938,1154 752.2188,1153.4219 L752.2188,1156.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="769.75" y="1155.3467">CashRegister</text><line style="stroke:#181818;stroke-width:0.5;" x1="656.5" x2="943.5" y1="1166.5" y2="1166.5"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="663.5" y="1177.1484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="675.5" y="1183.4951">shop: Shop</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="663.5" y="1193.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="675.5" y="1199.792">number: int</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="663.5" y="1209.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="675.5" y="1216.0889">balance: float</text><line style="stroke:#181818;stroke-width:0.5;" x1="656.5" x2="943.5" y1="1223.3906" y2="1223.3906"/><ellipse cx="666.5" cy="1237.0391" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="263" x="675.5" y="1240.3857">process_payment(amount: float): bool</text></g><!--MD5=[1d97155fbdc73f053377e8b095f5eeba]
+class Promotion--><g id="elem_Promotion"><rect codeLine="65" fill="#F1F1F1" height="96.8906" id="Promotion" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="957" y="640"/><ellipse cx="984.15" cy="656" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M987.1188,661.6406 Q986.5406,661.9375 985.9,662.0781 Q985.2594,662.2344 984.5563,662.2344 Q982.0563,662.2344 980.7281,660.5938 Q979.4156,658.9375 979.4156,655.8125 Q979.4156,652.6875 980.7281,651.0313 Q982.0563,649.375 984.5563,649.375 Q985.2594,649.375 985.9,649.5313 Q986.5563,649.6875 987.1188,649.9844 L987.1188,652.7031 Q986.4938,652.125 985.9,651.8594 Q985.3063,651.5781 984.6813,651.5781 Q983.3375,651.5781 982.65,652.6563 Q981.9625,653.7188 981.9625,655.8125 Q981.9625,657.9063 982.65,658.9844 Q983.3375,660.0469 984.6813,660.0469 Q985.3063,660.0469 985.9,659.7813 Q986.4938,659.5 987.1188,658.9219 L987.1188,661.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1000.85" y="660.8467">Promotion</text><line style="stroke:#181818;stroke-width:0.5;" x1="958" x2="1086" y1="672" y2="672"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="965" y="682.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="977" y="688.9951">name: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="965" y="698.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="977" y="705.292">description: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="965" y="715.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="977" y="721.5889">discount: float</text><line style="stroke:#181818;stroke-width:0.5;" x1="958" x2="1086" y1="728.8906" y2="728.8906"/></g><!--MD5=[161c3bb403169157d9ea11ed46eaa789]
+class Gallery--><g id="elem_Gallery"><rect codeLine="71" fill="#F1F1F1" height="113.1875" id="Gallery" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="184" x="1193" y="632"/><ellipse cx="1257.75" cy="648" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1260.7188,653.6406 Q1260.1406,653.9375 1259.5,654.0781 Q1258.8594,654.2344 1258.1563,654.2344 Q1255.6563,654.2344 1254.3281,652.5938 Q1253.0156,650.9375 1253.0156,647.8125 Q1253.0156,644.6875 1254.3281,643.0313 Q1255.6563,641.375 1258.1563,641.375 Q1258.8594,641.375 1259.5,641.5313 Q1260.1563,641.6875 1260.7188,641.9844 L1260.7188,644.7031 Q1260.0938,644.125 1259.5,643.8594 Q1258.9063,643.5781 1258.2813,643.5781 Q1256.9375,643.5781 1256.25,644.6563 Q1255.5625,645.7188 1255.5625,647.8125 Q1255.5625,649.9063 1256.25,650.9844 Q1256.9375,652.0469 1258.2813,652.0469 Q1258.9063,652.0469 1259.5,651.7813 Q1260.0938,651.5 1260.7188,650.9219 L1260.7188,653.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1278.25" y="652.8467">Gallery</text><line style="stroke:#181818;stroke-width:0.5;" x1="1194" x2="1376" y1="664" y2="664"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1201" y="674.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1213" y="680.9951">name: str</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1201" y="690.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="1213" y="697.292">level: int</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1201" y="707.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1213" y="713.5889">shops: List[Shop]</text><line style="stroke:#181818;stroke-width:0.5;" x1="1194" x2="1376" y1="720.8906" y2="720.8906"/><ellipse cx="1204" cy="734.5391" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="1213" y="737.8857">add_shop(shop: Shop)</text></g><!--MD5=[ba246acd03fe4946bf404c6a80540fcc]
+class ProductSearch--><g id="elem_ProductSearch"><rect codeLine="79" fill="#F1F1F1" height="80.5938" id="ProductSearch" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="565" x="269.5" y="129"/><ellipse cx="496.75" cy="145" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M499.7188,150.6406 Q499.1406,150.9375 498.5,151.0781 Q497.8594,151.2344 497.1563,151.2344 Q494.6563,151.2344 493.3281,149.5938 Q492.0156,147.9375 492.0156,144.8125 Q492.0156,141.6875 493.3281,140.0313 Q494.6563,138.375 497.1563,138.375 Q497.8594,138.375 498.5,138.5313 Q499.1563,138.6875 499.7188,138.9844 L499.7188,141.7031 Q499.0938,141.125 498.5,140.8594 Q497.9063,140.5781 497.2813,140.5781 Q495.9375,140.5781 495.25,141.6563 Q494.5625,142.7188 494.5625,144.8125 Q494.5625,146.9063 495.25,147.9844 Q495.9375,149.0469 497.2813,149.0469 Q497.9063,149.0469 498.5,148.7813 Q499.0938,148.5 499.7188,147.9219 L499.7188,150.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="517.25" y="149.8467">ProductSearch</text><line style="stroke:#181818;stroke-width:0.5;" x1="270.5" x2="833.5" y1="161" y2="161"/><line style="stroke:#181818;stroke-width:0.5;" x1="270.5" x2="833.5" y1="169" y2="169"/><ellipse cx="280.5" cy="182.6484" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="539" x="289.5" y="185.9951">search_by_name(mall: ShoppingMall, product_name: str): List[(Product, Shop)]</text><ellipse cx="280.5" cy="198.9453" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="520" x="289.5" y="202.292">search_by_category(mall: ShoppingMall, category: str): List[(Product, Shop)]</text></g><!--MD5=[e2c171cc09f09023dcd8c5ce5b8df9b5]
+class PurchaseOperation--><g id="elem_PurchaseOperation"><rect codeLine="84" fill="#F1F1F1" height="64.2969" id="PurchaseOperation" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="793" x="58.5" y="656.5"/><ellipse cx="384.25" cy="672.5" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M387.2188,678.1406 Q386.6406,678.4375 386,678.5781 Q385.3594,678.7344 384.6563,678.7344 Q382.1563,678.7344 380.8281,677.0938 Q379.5156,675.4375 379.5156,672.3125 Q379.5156,669.1875 380.8281,667.5313 Q382.1563,665.875 384.6563,665.875 Q385.3594,665.875 386,666.0313 Q386.6563,666.1875 387.2188,666.4844 L387.2188,669.2031 Q386.5938,668.625 386,668.3594 Q385.4063,668.0781 384.7813,668.0781 Q383.4375,668.0781 382.75,669.1563 Q382.0625,670.2188 382.0625,672.3125 Q382.0625,674.4063 382.75,675.4844 Q383.4375,676.5469 384.7813,676.5469 Q385.4063,676.5469 386,676.2813 Q386.5938,676 387.2188,675.4219 L387.2188,678.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="404.75" y="677.3467">PurchaseOperation</text><line style="stroke:#181818;stroke-width:0.5;" x1="59.5" x2="850.5" y1="688.5" y2="688.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="59.5" x2="850.5" y1="696.5" y2="696.5"/><ellipse cx="69.5" cy="710.1484" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="767" x="78.5" y="713.4951">make_purchase(customer: Customer, product: Product, shop: Shop, quantity: int, seller: Seller): (bool, str, Dict)</text></g><!--MD5=[280db4576f2055846003313f0f79cdf2]
+class ReturnOperation--><g id="elem_ReturnOperation"><rect codeLine="88" fill="#F1F1F1" height="64.2969" id="ReturnOperation" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="500" x="1554" y="656.5"/><ellipse cx="1742.25" cy="672.5" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1745.2188,678.1406 Q1744.6406,678.4375 1744,678.5781 Q1743.3594,678.7344 1742.6563,678.7344 Q1740.1563,678.7344 1738.8281,677.0938 Q1737.5156,675.4375 1737.5156,672.3125 Q1737.5156,669.1875 1738.8281,667.5313 Q1740.1563,665.875 1742.6563,665.875 Q1743.3594,665.875 1744,666.0313 Q1744.6563,666.1875 1745.2188,666.4844 L1745.2188,669.2031 Q1744.5938,668.625 1744,668.3594 Q1743.4063,668.0781 1742.7813,668.0781 Q1741.4375,668.0781 1740.75,669.1563 Q1740.0625,670.2188 1740.0625,672.3125 Q1740.0625,674.4063 1740.75,675.4844 Q1741.4375,676.5469 1742.7813,676.5469 Q1743.4063,676.5469 1744,676.2813 Q1744.5938,676 1745.2188,675.4219 L1745.2188,678.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="1762.75" y="677.3467">ReturnOperation</text><line style="stroke:#181818;stroke-width:0.5;" x1="1555" x2="2053" y1="688.5" y2="688.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="1555" x2="2053" y1="696.5" y2="696.5"/><ellipse cx="1565" cy="710.1484" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="474" x="1574" y="713.4951">return_product(customer: Customer, purchase_index: int): (bool, str)</text></g><!--MD5=[4d3356d35ad9e8e85d87ed52449bd050]
+class PromotionOperation--><g id="elem_PromotionOperation"><rect codeLine="92" fill="#F1F1F1" height="64.2969" id="PromotionOperation" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="446" x="605" y="450"/><ellipse cx="754.25" cy="466" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M757.2188,471.6406 Q756.6406,471.9375 756,472.0781 Q755.3594,472.2344 754.6563,472.2344 Q752.1563,472.2344 750.8281,470.5938 Q749.5156,468.9375 749.5156,465.8125 Q749.5156,462.6875 750.8281,461.0313 Q752.1563,459.375 754.6563,459.375 Q755.3594,459.375 756,459.5313 Q756.6563,459.6875 757.2188,459.9844 L757.2188,462.7031 Q756.5938,462.125 756,461.8594 Q755.4063,461.5781 754.7813,461.5781 Q753.4375,461.5781 752.75,462.6563 Q752.0625,463.7188 752.0625,465.8125 Q752.0625,467.9063 752.75,468.9844 Q753.4375,470.0469 754.7813,470.0469 Q755.4063,470.0469 756,469.7813 Q756.5938,469.5 757.2188,468.9219 L757.2188,471.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="774.75" y="470.8467">PromotionOperation</text><line style="stroke:#181818;stroke-width:0.5;" x1="606" x2="1050" y1="482" y2="482"/><line style="stroke:#181818;stroke-width:0.5;" x1="606" x2="1050" y1="490" y2="490"/><ellipse cx="616" cy="503.6484" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="420" x="625" y="506.9951">apply_promotion(purchase: Dict, promotion: Promotion): Dict</text></g><!--MD5=[a15ad58df73b6f74c0322975b47011ed]
+class RentOperation--><g id="elem_RentOperation"><rect codeLine="96" fill="#F1F1F1" height="64.2969" id="RentOperation" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="452" x="1312" y="137.5"/><ellipse cx="1483.25" cy="153.5" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1486.2188,159.1406 Q1485.6406,159.4375 1485,159.5781 Q1484.3594,159.7344 1483.6563,159.7344 Q1481.1563,159.7344 1479.8281,158.0938 Q1478.5156,156.4375 1478.5156,153.3125 Q1478.5156,150.1875 1479.8281,148.5313 Q1481.1563,146.875 1483.6563,146.875 Q1484.3594,146.875 1485,147.0313 Q1485.6563,147.1875 1486.2188,147.4844 L1486.2188,150.2031 Q1485.5938,149.625 1485,149.3594 Q1484.4063,149.0781 1483.7813,149.0781 Q1482.4375,149.0781 1481.75,150.1563 Q1481.0625,151.2188 1481.0625,153.3125 Q1481.0625,155.4063 1481.75,156.4844 Q1482.4375,157.5469 1483.7813,157.5469 Q1484.4063,157.5469 1485,157.2813 Q1485.5938,157 1486.2188,156.4219 L1486.2188,159.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1503.75" y="158.3467">RentOperation</text><line style="stroke:#181818;stroke-width:0.5;" x1="1313" x2="1763" y1="169.5" y2="169.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="1313" x2="1763" y1="177.5" y2="177.5"/><ellipse cx="1323" cy="191.1484" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="426" x="1332" y="194.4951">rent_space(mall: ShoppingMall, shop: Shop, months: int): Dict</text></g><!--MD5=[5ad0909889ae788e13dc81fd1428fe9c]
+class ServiceRating--><g id="elem_ServiceRating"><rect codeLine="100" fill="#F1F1F1" height="64.2969" id="ServiceRating" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="339" x="1565.5" y="887.5"/><ellipse cx="1683.75" cy="903.5" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1686.7188,909.1406 Q1686.1406,909.4375 1685.5,909.5781 Q1684.8594,909.7344 1684.1563,909.7344 Q1681.6563,909.7344 1680.3281,908.0938 Q1679.0156,906.4375 1679.0156,903.3125 Q1679.0156,900.1875 1680.3281,898.5313 Q1681.6563,896.875 1684.1563,896.875 Q1684.8594,896.875 1685.5,897.0313 Q1686.1563,897.1875 1686.7188,897.4844 L1686.7188,900.2031 Q1686.0938,899.625 1685.5,899.3594 Q1684.9063,899.0781 1684.2813,899.0781 Q1682.9375,899.0781 1682.25,900.1563 Q1681.5625,901.2188 1681.5625,903.3125 Q1681.5625,905.4063 1682.25,906.4844 Q1682.9375,907.5469 1684.2813,907.5469 Q1684.9063,907.5469 1685.5,907.2813 Q1686.0938,907 1686.7188,906.4219 L1686.7188,909.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="1704.25" y="908.3467">ServiceRating</text><line style="stroke:#181818;stroke-width:0.5;" x1="1566.5" x2="1903.5" y1="919.5" y2="919.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="1566.5" x2="1903.5" y1="927.5" y2="927.5"/><ellipse cx="1576.5" cy="941.1484" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="313" x="1585.5" y="944.4951">rate_seller(seller: Seller, rating: int): (bool, str)</text></g><!--MD5=[6077bdb4504e423c4be306b542221263]
+class AdminInterface--><g id="elem_AdminInterface"><rect codeLine="105" fill="#F1F1F1" height="325.0469" id="AdminInterface" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="265" x="1011.5" y="7"/><ellipse cx="1088.25" cy="23" fill="#C2C2C2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1091.2188,28.6406 Q1090.6406,28.9375 1090,29.0781 Q1089.3594,29.2344 1088.6563,29.2344 Q1086.1563,29.2344 1084.8281,27.5938 Q1083.5156,25.9375 1083.5156,22.8125 Q1083.5156,19.6875 1084.8281,18.0313 Q1086.1563,16.375 1088.6563,16.375 Q1089.3594,16.375 1090,16.5313 Q1090.6563,16.6875 1091.2188,16.9844 L1091.2188,19.7031 Q1090.5938,19.125 1090,18.8594 Q1089.4063,18.5781 1088.7813,18.5781 Q1087.4375,18.5781 1086.75,19.6563 Q1086.0625,20.7188 1086.0625,22.8125 Q1086.0625,24.9063 1086.75,25.9844 Q1087.4375,27.0469 1088.7813,27.0469 Q1089.4063,27.0469 1090,26.7813 Q1090.5938,26.5 1091.2188,25.9219 L1091.2188,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1108.75" y="27.8467">AdminInterface</text><line style="stroke:#181818;stroke-width:0.5;" x1="1012.5" x2="1275.5" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="49.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="1031.5" y="55.9951">mall: ShoppingMall</text><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="65.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="1031.5" y="72.292">current_customer: Customer</text><line style="stroke:#181818;stroke-width:0.5;" x1="1012.5" x2="1275.5" y1="79.5938" y2="79.5938"/><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="90.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="239" x="1031.5" y="96.5889">commands: Dict[str, (str, method)]</text><ellipse cx="1022.5" cy="109.5391" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="1031.5" y="112.8857">run()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="122.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="1031.5" y="129.1826">show_menu()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="139.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="1031.5" y="145.4795">view_shops()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="155.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="1031.5" y="161.7764">view_promotions()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="171.7266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="1031.5" y="178.0732">search_products()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="188.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="1031.5" y="194.3701">view_product_details()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="204.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1031.5" y="210.667">make_purchase()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="220.6172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1031.5" y="226.9639">apply_promotion()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="236.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1031.5" y="243.2607">rent_space()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="253.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="1031.5" y="259.5576">rate_service()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="269.5078"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="1031.5" y="275.8545">send_announcement()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="285.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="1031.5" y="292.1514">change_customer()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="302.1016"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="1031.5" y="308.4482">process_return()</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="1019.5" y="318.3984"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="1031.5" y="324.7451">exit()</text></g><!--MD5=[cccd802b5a3568ffc75788cbbcccb02b]
+link ShoppingMall to Shop--><g id="link_ShoppingMall_Shop"><path codeLine="126" d="M1199.55,571.01 C1177.51,624.3 1145.1,691.98 1105,745 C1091.63,762.67 1076.26,779.93 1060.13,796.27 " fill="none" id="ShoppingMall-to-Shop" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1050.55,805.79,1057.6254,804.3978,1059.0616,797.3312,1051.9862,798.7234,1050.55,805.79" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1188.4176" y="591.3603">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="1035.8173" y="795.0876">0..*</text></g><!--MD5=[31e857e2154565d6347957892e1297ce]
+link ShoppingMall to Gallery--><g id="link_ShoppingMall_Gallery"><path codeLine="127" d="M1254.86,571.21 C1259.02,587.26 1263.3,603.77 1267.28,619.14 " fill="none" id="ShoppingMall-to-Gallery" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1270.55,631.74,1272.9119,624.9267,1267.5311,620.1259,1265.1692,626.9393,1270.55,631.74" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1248.4808" y="591.5775">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="1244.3873" y="620.9719">0..*</text></g><!--MD5=[40adf432c244131ad49a2d7923730b3c]
+link ShoppingMall to Promotion--><g id="link_ShoppingMall_Promotion"><path codeLine="128" d="M1141.42,571.21 C1120.72,591.37 1099.25,612.27 1080.33,630.7 " fill="none" id="ShoppingMall-to-Promotion" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1070.97,639.81,1078.0591,638.4893,1079.5666,631.4375,1072.4775,632.7582,1070.97,639.81" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1125.292" y="591.5775">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="1053.2392" y="628.9922">0..*</text></g><!--MD5=[a279dfee96aa8f318ab8ce4748052593]
+link Shop to Product--><g id="link_Shop_Product"><path codeLine="130" d="M731.26,1029.73 C686.76,1056.93 639.89,1085.56 598.29,1110.99 " fill="none" id="Shop-to-Product" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="586.99,1117.9,594.1954,1118.1859,597.2307,1111.6447,590.0253,1111.3588,586.99,1117.9" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="715.5507" y="1031.128">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="574.4726" y="1107.0501">0..*</text></g><!--MD5=[01ebdc73562a4645afe76a32a18d6ae6]
+link Shop to Seller--><g id="link_Shop_Seller"><path codeLine="131" d="M1056.5,1033.04 C1088.99,1056.25 1123.27,1080.36 1155.31,1102.53 " fill="none" id="Shop-to-Seller" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1166.08,1109.96,1163.4144,1103.2597,1156.2042,1103.1432,1158.8698,1109.8435,1166.08,1109.96" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1058.0742" y="1053.2348">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="1130.5038" y="1098.8671">0..*</text></g><!--MD5=[6d33b58b025e98d66afa91ad95d7ac50]
+link Seller to Shop--><g id="link_Seller_Shop"><path codeLine="138" d="M1190.31,1109.96 C1160.39,1088.18 1126.68,1064.11 1093.26,1040.63 " fill="none" id="Seller-to-Shop" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1082.43,1033.04,1085.0425,1039.7612,1092.2515,1039.9348,1089.639,1033.2136,1082.43,1033.04" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1172.6589" y="1098.8671">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="1069.2089" y="1053.2348">0..1</text></g><!--MD5=[0fafb8df79413a5fdba93c2ca50f0519]
+link Shop to CashRegister--><g id="link_Shop_CashRegister"><path codeLine="132" d="M851.39,1033.23 C838.67,1063.36 826.2,1095.01 816.54,1121.91 " fill="none" id="Shop-to-CashRegister" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="812.18,1134.31,817.9436,1129.9763,816.1601,1122.9893,810.3964,1127.3229,812.18,1134.31" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="839.1834" y="1053.4376">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="789.2629" y="1123.5504">0..*</text></g><!--MD5=[796f4c4bf78afa4bc7e9c00671168cb3]
+link CashRegister to Shop--><g id="link_CashRegister_Shop"><path codeLine="140" d="M833.9,1134.31 C846.17,1108.5 859.92,1076.69 872.42,1045.57 " fill="none" id="CashRegister-to-Shop" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="877.33,1033.23,871.3978,1037.3298,872.9006,1044.3826,878.8328,1040.2828,877.33,1033.23" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="829.5441" y="1123.5504">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="866.8662" y="1053.4376">1</text></g><!--MD5=[ff73b6aa135ebb5adf59277445644789]
+link Gallery to Shop--><g id="link_Gallery_Shop"><path codeLine="134" d="M1212.34,745.2 C1197.32,755.89 1181.39,766.65 1166,776 C1140.52,791.48 1132.27,791.91 1106,806 C1104.13,807 1102.25,808.02 1100.36,809.04 " fill="none" id="Gallery-to-Shop" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1088.68,815.38,1095.8613,816.0348,1099.2278,809.6578,1092.0465,809.003,1088.68,815.38" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1194.9971" y="765.0879">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="1096.7032" y="807.7351">0..*</text></g><!--MD5=[1e513ad365afcadbb991978fd91f1004]
+link Customer to Seller--><g id="link_Customer_Seller"><path codeLine="136" d="M1291,1000.63 C1291,1030.77 1291,1065.3 1291,1096.55 " fill="none" id="Customer-to-Seller" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1291,1109.71,1295,1103.71,1291,1097.71,1287,1103.71,1291,1109.71" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="1292" y="1076.0669">asks questions</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1282.6438" y="1020.5929">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="1266.9758" y="1098.8715">0..*</text></g><!--MD5=[eca9a60438f5a786bea495e88d30fc80]
+link AdminInterface to ShoppingMall--><g id="link_AdminInterface_ShoppingMall"><path codeLine="142" d="M1189.8,332.12 C1194.44,348.46 1199.04,364.72 1203.42,380.15 " fill="none" id="AdminInterface-to-ShoppingMall" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1207.03,392.9,1209.235,386.0343,1203.7455,381.3582,1201.5405,388.2239,1207.03,392.9" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1183.6941" y="351.8974">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1196.6309" y="381.9572">1</text></g><!--MD5=[a8425c1af9cfd6a622b9fa5dd965aead]
+link AdminInterface to Customer--><g id="link_AdminInterface_Customer"><path codeLine="143" d="M1276.76,316.45 C1282.81,321.82 1288.9,327.03 1295,332 C1335.37,364.87 1369.52,347.6 1395,393 C1471.58,529.42 1436.73,594.22 1395,745 C1387.16,773.32 1373.33,801.67 1358.27,827 " fill="none" id="AdminInterface-to-Customer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1351.28,838.41,1357.824,835.3809,1357.5449,828.1752,1351.0008,831.2043,1351.28,838.41" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1284.6664" y="321.5813">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1348.4683" y="827.3125">1</text></g><!--MD5=[12e3afe9ba18d31f611dd83ec0e35bcd]
+link ProductSearch to ShoppingMall--><g id="link_ProductSearch_ShoppingMall"><path codeLine="146" d="M650.6,210.08 C755.29,252.78 925.02,323.97 1068,393 C1072.47,395.16 1077,397.38 1081.56,399.64 " fill="none" id="ProductSearch-to-ShoppingMall" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1086.13,401.91,1079.8593,394.3154,1081.655,399.6797,1076.2907,401.4754,1086.13,401.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1037004c0c9645760176ebd500d090e2]
+link ProductSearch to Product--><g id="link_ProductSearch_Product"><path codeLine="147" d="M316.88,210.05 C169,249.92 6,328.47 6,481 C6,481 6,481 6,920.5 C6,1070.29 189.25,1138.28 325.18,1168.1 " fill="none" id="ProductSearch-to-Product" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="330.4,1169.23,322.4495,1163.4171,325.5131,1168.1726,320.7576,1171.2362,330.4,1169.23" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5016e7f9468c31d780b5487cdfc28fb3]
+link ProductSearch to Shop--><g id="link_ProductSearch_Shop"><path codeLine="148" d="M541.88,210.19 C524.24,289.53 497.78,468.82 588,571 C672.59,666.8 781.93,538.46 869,632 C910.46,676.54 921.87,743.05 922.38,800.77 " fill="none" id="ProductSearch-to-Shop" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="922.4,805.98,926.3743,796.9686,922.3857,800.98,918.3743,796.9915,922.4,805.98" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cfa210fe15455f83290e7df7b2077d7f]
+link PurchaseOperation to Customer--><g id="link_PurchaseOperation_Customer"><path codeLine="150" d="M761.04,720.52 C872.1,737.91 997,764.76 1106,806 C1127.16,814.01 1148.6,824.47 1169.02,835.79 " fill="none" id="PurchaseOperation-to-Customer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1173.63,838.37,1167.7248,830.4878,1169.2653,835.9309,1163.8222,837.4714,1173.63,838.37" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e544b3f7c61d0336d34207dd2153bf11]
+link PurchaseOperation to Product--><g id="link_PurchaseOperation_Product"><path codeLine="151" d="M455.88,720.81 C458.04,798.23 463.7,1000.48 466.83,1112.51 " fill="none" id="PurchaseOperation-to-Product" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="466.98,1117.77,470.7473,1108.6702,466.8515,1112.7717,462.75,1108.8758,466.98,1117.77" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0d120af11debb33747460e7903a3b422]
+link PurchaseOperation to Shop--><g id="link_PurchaseOperation_Shop"><path codeLine="152" d="M566.78,720.58 C610.68,734.65 660.8,753.08 704,775 C720.52,783.38 737.23,792.94 753.62,803.05 " fill="none" id="PurchaseOperation-to-Shop" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="758.23,805.91,752.7057,797.7564,753.986,803.2664,748.4759,804.5468,758.23,805.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ad697ce9ba9046e114ca1d7918b1255f]
+link PurchaseOperation to Seller--><g id="link_PurchaseOperation_Seller"><path codeLine="153" d="M509.25,720.66 C541.79,741.5 582.13,771.39 610,806 C679.6,892.43 629.37,961.22 714,1033 C725.55,1042.8 846.58,1076.31 974.82,1109.88 " fill="none" id="PurchaseOperation-to-Seller" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="979.77,1111.17,972.0638,1105.037,974.9304,1109.9137,970.0537,1112.7803,979.77,1111.17" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f114ed19d40380d2d4ac6bbe3657b17a]
+link PurchaseOperation to CashRegister--><g id="link_PurchaseOperation_CashRegister"><path codeLine="154" d="M469.85,720.86 C500,783.12 572.33,925.61 652,1033 C677.53,1067.4 709.78,1102.4 737.66,1130.6 " fill="none" id="PurchaseOperation-to-CashRegister" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="741.39,1134.35,737.8916,1125.1434,737.8688,1130.8002,732.2119,1130.7774,741.39,1134.35" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5ccf211f9ffa9eedb693d4ebaacffb3c]
+link ReturnOperation to Customer--><g id="link_ReturnOperation_Customer"><path codeLine="156" d="M1649.91,720.53 C1598.61,733.8 1542.07,751.72 1493,775 C1458.69,791.28 1424.02,813.4 1393.32,835.39 " fill="none" id="ReturnOperation-to-Customer" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1389.2,838.35,1398.8433,836.3481,1393.2609,835.433,1394.1761,829.8507,1389.2,838.35" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7eb7477b1799fb4593f7fa493b093c52]
+link ReturnOperation to Product--><g id="link_ReturnOperation_Product"><path codeLine="157" d="M1684.28,720.62 C1636.15,738.53 1583.72,765.72 1548,806 C1477.78,885.19 1558.46,966.64 1476,1033 C1439.58,1062.31 683.1,1097.67 638,1110 C629.55,1112.31 620.99,1115.03 612.46,1118.03 " fill="none" id="ReturnOperation-to-Product" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="607.72,1119.73,617.5413,1120.4662,612.4281,1118.0465,614.8477,1112.9333,607.72,1119.73" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3ff34ee1fe0ebf261cec154d8fff428e]
+link ReturnOperation to Shop--><g id="link_ReturnOperation_Shop"><path codeLine="158" d="M1649.83,720.57 C1609.84,728.58 1566.82,737.15 1527,745 C1455.93,759 1438.59,764.97 1367,776 C1251.6,793.78 1216.92,769.52 1106,806 C1101.85,807.37 1097.69,808.83 1093.52,810.37 " fill="none" id="ReturnOperation-to-Shop" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1088.64,812.22,1098.473,812.779,1093.3169,810.4519,1095.644,805.2958,1088.64,812.22" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5f2d690311447b36c6b70854f5ec9d6b]
+link ReturnOperation to Seller--><g id="link_ReturnOperation_Seller"><path codeLine="159" d="M1850.22,720.58 C1876.67,741.29 1907.4,771.07 1922,806 C1960.91,899.09 1984.13,953.51 1922,1033 C1880.94,1085.52 1743.47,1123 1607.27,1148.13 " fill="none" id="ReturnOperation-to-Seller" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1602.02,1149.1,1611.5921,1151.4182,1606.9387,1148.2018,1610.155,1143.5483,1602.02,1149.1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d7fed5f84ef22fee71d5f5e48fd8ab16]
+link PromotionOperation to Promotion--><g id="link_PromotionOperation_Promotion"><path codeLine="161" d="M857.46,514.06 C888.17,546.42 936.79,597.68 973.23,636.09 " fill="none" id="PromotionOperation-to-Promotion" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="976.72,639.77,973.427,630.488,973.2785,636.1429,967.6236,635.9944,976.72,639.77" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e26606cdfa9666b4cdb7ede24b9a9e56]
+link RentOperation to ShoppingMall--><g id="link_RentOperation_ShoppingMall"><path codeLine="163" d="M1507.26,201.69 C1464.46,245.12 1385.15,325.6 1322.61,389.06 " fill="none" id="RentOperation-to-ShoppingMall" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1318.89,392.83,1328.0535,389.2202,1322.3968,389.266,1322.351,383.6093,1318.89,392.83" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[134562349a929bbe3f7c56594dbc35c3]
+link RentOperation to Shop--><g id="link_RentOperation_Shop"><path codeLine="164" d="M1540.8,201.66 C1547.6,298.3 1554.09,595.35 1395,745 C1299.38,834.94 1228.65,759.2 1106,806 C1101.76,807.62 1097.5,809.32 1093.24,811.09 " fill="none" id="RentOperation-to-Shop" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1088.61,813.05,1098.4572,813.2331,1093.216,811.1046,1095.3445,805.8635,1088.61,813.05" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[872a4ef312fbad1752ac0a0fb91db670]
+link ServiceRating to Seller--><g id="link_ServiceRating_Seller"><path codeLine="166" d="M1683.63,951.68 C1621.45,989.42 1514.3,1054.46 1427.62,1107.07 " fill="none" id="ServiceRating-to-Seller" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1423.25,1109.72,1433.0194,1108.4717,1427.5248,1107.1266,1428.87,1101.632,1423.25,1109.72" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[03b7edf48e4d5b9b8b6f01f59ee59b5c]
+@startuml
+skinparam monochrome true
+
+' Классы из entities.py
+class ShoppingMall {
+  -name: str
+  -address: str
+  -shops: List[Shop]
+  -galleries: List[Gallery]
+  -promotions: List[Promotion]
+  +add_shop(shop: Shop)
+  +add_gallery(gallery: Gallery)
+  +add_promotion(promotion: Promotion)
+}
+
+class Shop {
+  -name: str
+  -category: str
+  -area: float
+  -rent_price: float
+  -products: List[Product]
+  -sellers: List[Seller]
+  -cash_registers: List[CashRegister]
+  -return_policy_days: int
+  +add_product(product: Product)
+  +add_seller(seller: Seller)
+  +add_cash_register(cash_register: CashRegister)
+}
+
+class Product {
+  -name: str
+  -price: float
+  -quantity: int
+  -category: str
+  -specifications: Dict[str, str]
+  +add_specification(key: str, value: str)
+}
+
+class Customer {
+  -name: str
+  -contact_info: str
+  -purchases: List[Dict]
+  -balance: float
+  -questions: List[Dict]
+  +add_funds(amount: float)
+  +ask_question(seller: Seller, question: str): str
+}
+
+class Seller {
+  -name: str
+  -shop: Shop
+  -position: str
+  -rating: float
+  -answered_questions: List[Dict]
+  +answer_question(question: str): str
+  +process_return(customer: Customer, product: Product, purchase_date: str): (bool, str)
+}
+
+class CashRegister {
+  -shop: Shop
+  -number: int
+  -balance: float
+  +process_payment(amount: float): bool
+}
+
+class Promotion {
+  -name: str
+  -description: str
+  -discount: float
+}
+
+class Gallery {
+  -name: str
+  -level: int
+  -shops: List[Shop]
+  +add_shop(shop: Shop)
+}
+
+' Классы из operations.py
+class ProductSearch {
+  +{static} search_by_name(mall: ShoppingMall, product_name: str): List[(Product, Shop)]
+  +{static} search_by_category(mall: ShoppingMall, category: str): List[(Product, Shop)]
+}
+
+class PurchaseOperation {
+  +{static} make_purchase(customer: Customer, product: Product, shop: Shop, quantity: int, seller: Seller): (bool, str, Dict)
+}
+
+class ReturnOperation {
+  +{static} return_product(customer: Customer, purchase_index: int): (bool, str)
+}
+
+class PromotionOperation {
+  +{static} apply_promotion(purchase: Dict, promotion: Promotion): Dict
+}
+
+class RentOperation {
+  +{static} rent_space(mall: ShoppingMall, shop: Shop, months: int): Dict
+}
+
+class ServiceRating {
+  +{static} rate_seller(seller: Seller, rating: int): (bool, str)
+}
+
+' Класс из admin_interface.py
+class AdminInterface {
+  -mall: ShoppingMall
+  -current_customer: Customer
+  -commands: Dict[str, (str, method)]
+  +run()
+  -show_menu()
+  -view_shops()
+  -view_promotions()
+  -search_products()
+  -view_product_details()
+  -make_purchase()
+  -apply_promotion()
+  -rent_space()
+  -rate_service()
+  -send_announcement()
+  -change_customer()
+  -process_return()
+  -exit()
+}
+
+' Определение связей
+ShoppingMall "1" - -o "0..*" Shop
+ShoppingMall "1" - -o "0..*" Gallery
+ShoppingMall "1" - -o "0..*" Promotion
+
+Shop "1" - -o "0..*" Product
+Shop "1" - -o "0..*" Seller
+Shop "1" - -o "0..*" CashRegister
+
+Gallery "1" - -o "0..*" Shop
+
+Customer "1" - -o "0..*" Seller : asks questions
+
+Seller "1" - -o "0..1" Shop
+
+CashRegister "1" - -o "1" Shop
+
+AdminInterface "1" - -o "1" ShoppingMall
+AdminInterface "1" - -o "1" Customer
+
+' Операции взаимодействуют с сущностями
+ProductSearch - -> ShoppingMall
+ProductSearch - -> Product
+ProductSearch - -> Shop
+
+PurchaseOperation - -> Customer
+PurchaseOperation - -> Product
+PurchaseOperation - -> Shop
+PurchaseOperation - -> Seller
+PurchaseOperation - -> CashRegister
+
+ReturnOperation - -> Customer
+ReturnOperation - -> Product
+ReturnOperation - -> Shop
+ReturnOperation - -> Seller
+
+PromotionOperation - -> Promotion
+
+RentOperation - -> ShoppingMall
+RentOperation - -> Shop
+
+ServiceRating - -> Seller
+@enduml
+
+@startuml
+skinparam monochrome true
+
+class ShoppingMall {
+  -name: str
+  -address: str
+  -shops: List[Shop]
+  -galleries: List[Gallery]
+  -promotions: List[Promotion]
+  +add_shop(shop: Shop)
+  +add_gallery(gallery: Gallery)
+  +add_promotion(promotion: Promotion)
+}
+
+class Shop {
+  -name: str
+  -category: str
+  -area: float
+  -rent_price: float
+  -products: List[Product]
+  -sellers: List[Seller]
+  -cash_registers: List[CashRegister]
+  -return_policy_days: int
+  +add_product(product: Product)
+  +add_seller(seller: Seller)
+  +add_cash_register(cash_register: CashRegister)
+}
+
+class Product {
+  -name: str
+  -price: float
+  -quantity: int
+  -category: str
+  -specifications: Dict[str, str]
+  +add_specification(key: str, value: str)
+}
+
+class Customer {
+  -name: str
+  -contact_info: str
+  -purchases: List[Dict]
+  -balance: float
+  -questions: List[Dict]
+  +add_funds(amount: float)
+  +ask_question(seller: Seller, question: str): str
+}
+
+class Seller {
+  -name: str
+  -shop: Shop
+  -position: str
+  -rating: float
+  -answered_questions: List[Dict]
+  +answer_question(question: str): str
+  +process_return(customer: Customer, product: Product, purchase_date: str): (bool, str)
+}
+
+class CashRegister {
+  -shop: Shop
+  -number: int
+  -balance: float
+  +process_payment(amount: float): bool
+}
+
+class Promotion {
+  -name: str
+  -description: str
+  -discount: float
+}
+
+class Gallery {
+  -name: str
+  -level: int
+  -shops: List[Shop]
+  +add_shop(shop: Shop)
+}
+
+class ProductSearch {
+  +{static} search_by_name(mall: ShoppingMall, product_name: str): List[(Product, Shop)]
+  +{static} search_by_category(mall: ShoppingMall, category: str): List[(Product, Shop)]
+}
+
+class PurchaseOperation {
+  +{static} make_purchase(customer: Customer, product: Product, shop: Shop, quantity: int, seller: Seller): (bool, str, Dict)
+}
+
+class ReturnOperation {
+  +{static} return_product(customer: Customer, purchase_index: int): (bool, str)
+}
+
+class PromotionOperation {
+  +{static} apply_promotion(purchase: Dict, promotion: Promotion): Dict
+}
+
+class RentOperation {
+  +{static} rent_space(mall: ShoppingMall, shop: Shop, months: int): Dict
+}
+
+class ServiceRating {
+  +{static} rate_seller(seller: Seller, rating: int): (bool, str)
+}
+
+class AdminInterface {
+  -mall: ShoppingMall
+  -current_customer: Customer
+  -commands: Dict[str, (str, method)]
+  +run()
+  -show_menu()
+  -view_shops()
+  -view_promotions()
+  -search_products()
+  -view_product_details()
+  -make_purchase()
+  -apply_promotion()
+  -rent_space()
+  -rate_service()
+  -send_announcement()
+  -change_customer()
+  -process_return()
+  -exit()
+}
+
+ShoppingMall "1" - -o "0..*" Shop
+ShoppingMall "1" - -o "0..*" Gallery
+ShoppingMall "1" - -o "0..*" Promotion
+
+Shop "1" - -o "0..*" Product
+Shop "1" - -o "0..*" Seller
+Shop "1" - -o "0..*" CashRegister
+
+Gallery "1" - -o "0..*" Shop
+
+Customer "1" - -o "0..*" Seller : asks questions
+
+Seller "1" - -o "0..1" Shop
+
+CashRegister "1" - -o "1" Shop
+
+AdminInterface "1" - -o "1" ShoppingMall
+AdminInterface "1" - -o "1" Customer
+
+ProductSearch - -> ShoppingMall
+ProductSearch - -> Product
+ProductSearch - -> Shop
+
+PurchaseOperation - -> Customer
+PurchaseOperation - -> Product
+PurchaseOperation - -> Shop
+PurchaseOperation - -> Seller
+PurchaseOperation - -> CashRegister
+
+ReturnOperation - -> Customer
+ReturnOperation - -> Product
+ReturnOperation - -> Shop
+ReturnOperation - -> Seller
+
+PromotionOperation - -> Promotion
+
+RentOperation - -> ShoppingMall
+RentOperation - -> Shop
+
+ServiceRating - -> Seller
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
